@@ -1,0 +1,114 @@
+{
+	"id": "e071a4ca-3077-ee11-9937-0022489e2195",
+	"createdAt": "2023-10-30T14:29:54.703Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/Luukwosten/demo"
+	},
+	"name": "arbemirates",
+	"description": null,
+	"ver": "23.10.30.1530",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "53c4ae0b-4576-ee11-9937-0022489e2195",
+			"application": "arbemirates",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "22f5f60e-2b77-ee11-9937-0022489e2195",
+			"application": "arbemiratesaddproducts",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "a6766a5c-4a76-ee11-9937-0022489e2195",
+			"name": "API arbemiratesbasket",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "80bcc3f0-4676-ee11-9937-0022489e2195",
+			"name": "API arbemirates",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "4c63b090-4676-ee11-9937-0022489e2195",
+			"name": "arbemirates",
+			"description": null
+		},
+		{
+			"id": "15cabb51-4a76-ee11-9937-0022489e2195",
+			"name": "arbemiratesbasket",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "0b8b5356-3277-ee11-9937-0022489e2195",
+			"name": "arbEmiratesOverview",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "487e4650-3377-ee11-9937-0022489e2195",
+			"description": null,
+			"name": "arbEmiratesProductList"
+		},
+		{
+			"id": "3c3d5c23-3177-ee11-9937-0022489e2195",
+			"description": null,
+			"name": "arbEmiratesWarehouseAdd"
+		},
+		{
+			"id": "08625d0f-3177-ee11-9937-0022489e2195",
+			"description": null,
+			"name": "arbEmiratesStore"
+		}
+	],
+	"category": [
+		{
+			"id": "6ca2e82e-3177-ee11-9937-0022489e2195",
+			"description": null,
+			"name": "arbEmiratesTiles"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "eebec34a-3177-ee11-9937-0022489e2195",
+			"name": "arbEmirates",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

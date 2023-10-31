@@ -1,0 +1,10 @@
+var options = {
+    parameters: {
+        "where": JSON.stringify({ "updatedBy": "luuk.wosten@neptune-software.com" })
+    }
+};
+apiDELETEbasket(options);
+
+apiGETstore();
+Dialog.close();
+sap.m.MessageToast.show("Payment has been completed and basket has been emptied");

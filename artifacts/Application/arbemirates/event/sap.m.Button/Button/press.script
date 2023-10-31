@@ -1,0 +1,46 @@
+// Replace yourField with FieldName
+const context = oEvent.oSource.getBindingContext();
+
+// Get Entire Model
+const data = context.getObject();
+
+console.log("data context ", data);
+
+const price = data.price;
+const picture = data.image;
+const amount = "1";
+const pname = data.productName;
+
+const totalPrice = parseInt(amount) * parseInt(price);
+console.log("total price ", totalPrice);
+
+let final_data = {};
+
+// Add attributes to the Object, based on the inputs
+final_data.picture = picture;
+final_data.price = price;
+final_data.amount = amount;
+final_data.product = pname;
+// Log the Object
+console.log("API data ", final_data);
+
+// Assign the data object to "Options"
+var options = { data: final_data };
+// Trigger the API and pass the "Options"
+
+apiPUTbasket(options);
+
+let newQuantity = parseInt(data.quantity) - parseInt(amount);
+
+var options = {
+    parameters: {
+        where: JSON.stringify({ productName: pname }),
+    },
+    data: {
+        quantity: newQuantity,
+    },
+};
+
+apiPOSTstore(options);
+
+sap.m.MessageToast.show("Product " + pname + " has been added to the shopping basket!");

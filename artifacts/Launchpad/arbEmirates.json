@@ -1,0 +1,76 @@
+{
+	"id": "eebec34a-3177-ee11-9937-0022489e2195",
+	"createdAt": "2023-10-30T14:33:30.496Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"extUserRoles": [],
+	"extUserDepartments": [],
+	"catOrder": [
+		"6ca2e82e-3177-ee11-9937-0022489e2195"
+	],
+	"layout": [
+		{
+			"id": "fc1c39ab-a90f-4061-c31b-80a909a3cb57",
+			"css": "",
+			"name": "Mainstyle",
+			"active": true,
+			"style": "<style></style>",
+			"ui5Theme": "sap_horizon"
+		}
+	],
+	"config": {
+		"enhancement": ""
+	},
+	"enhancement": [],
+	"name": "arbEmirates",
+	"title": "ARB Emirates portal",
+	"description": null,
+	"startApp": null,
+	"startWebApp": null,
+	"customLogo": "/media/root/Luuk%20W%C3%B6sten/arbemirates/arb-logo.svg",
+	"launchpadApp": "planet9_launchpad_standard",
+	"hideSidemenu": false,
+	"ui5Version": "1.108",
+	"ui5Url": null,
+	"ui5Theme": "sap_horizon",
+	"header": null,
+	"customTheme": null,
+	"isExternal": false,
+	"emailPattern": null,
+	"loginApp": null,
+	"enableNotifications": false,
+	"firebaseProjectId": null,
+	"firebaseAppId": null,
+	"defaultLoginIDP": null,
+	"publicAccess": false,
+	"css": null,
+	"clientRequestTimeout": 120,
+	"limitWidth": false,
+	"searchBackgroundType": null,
+	"searchBackgroundColor": null,
+	"searchBackgroundShade": null,
+	"usedBackgroundType": null,
+	"usedBackgroundColor": null,
+	"usedBackgroundShade": null,
+	"searchEnableShadeCalc": null,
+	"usedEnableShadeCalc": null,
+	"enableTrace": false,
+	"ver": "23.10.30.1450",
+	"pwa_enable": false,
+	"pwa_customImageIos": null,
+	"pwa_customImageAndroidOld": null,
+	"pwa_customImageAndroidNew": null,
+	"pwa_displayMode": null,
+	"pwa_themeColor": "rgb(255,255,255)",
+	"pwa_backgroundColor": "rgb(255,255,255)",
+	"passwordResetEmail": null,
+	"activationCodeEmail": null,
+	"package": "e071a4ca-3077-ee11-9937-0022489e2195",
+	"cat": [
+		{
+			"id": "6ca2e82e-3177-ee11-9937-0022489e2195",
+			"name": "arbEmiratesTiles",
+			"title": null,
+			"ver": "23.10.30.1448"
+		}
+	]
+}

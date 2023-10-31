@@ -1,0 +1,45 @@
+{
+	"id": "15cabb51-4a76-ee11-9937-0022489e2195",
+	"createdAt": "2023-10-29T11:00:08.280Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"fields": [
+		{
+			"id": "be9406df-c55b-4c5d-919f-44146b3b053a",
+			"fieldName": "picture",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1320e2a7-d1c8-4e69-c954-eee09b86334a",
+			"fieldName": "price",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "627ab2d9-3d93-4469-8534-8ae560213f0c",
+			"fieldName": "amount",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9a679900-a0c0-435c-8d75-23b696a9df69",
+			"fieldName": "product",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "arbemiratesbasket",
+	"description": null,
+	"ver": "23.10.30.1530",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "e071a4ca-3077-ee11-9937-0022489e2195",
+	"rolesRead": [],
+	"rolesWrite": []
+}

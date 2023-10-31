@@ -1,0 +1,45 @@
+{
+	"id": "4c63b090-4676-ee11-9937-0022489e2195",
+	"createdAt": "2023-10-29T10:33:16.216Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"fields": [
+		{
+			"id": "d4a0df1c-18b1-4653-90d1-c12d7ab76afb",
+			"fieldName": "image",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "fe52d079-213f-4564-8469-1fca47895327",
+			"fieldName": "productName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "be62eefd-f7a2-4796-de11-ed4e34913ab9",
+			"fieldName": "price",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "41242565-5df2-4126-8b0c-42cd953ab0de",
+			"fieldName": "quantity",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "arbemirates",
+	"description": null,
+	"ver": "23.10.30.1530",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "e071a4ca-3077-ee11-9937-0022489e2195",
+	"rolesRead": [],
+	"rolesWrite": []
+}

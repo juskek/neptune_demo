@@ -1,0 +1,475 @@
+{
+	"id": "22f5f60e-2b77-ee11-9937-0022489e2195",
+	"createdAt": "2023-10-30T13:49:29.600Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "9d1c8684-302f-4870-b536-05e11b0ec233",
+			"fieldName": "Shell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "8810040f-bfb5-480c-c4d2-76c9ad32b985",
+					"fieldName": "App",
+					"fieldParent": "9d1c8684-302f-4870-b536-05e11b0ec233",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "18461a24-500e-432a-e96a-61c704623c40",
+							"fieldName": "Page",
+							"fieldParent": "8810040f-bfb5-480c-c4d2-76c9ad32b985",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "test",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+									"fieldName": "SimpleForm",
+									"fieldParent": "18461a24-500e-432a-e96a-61c704623c40",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "7e0252f8-8dba-449d-abb0-fb4e9caf0613",
+											"fieldName": "LabelName",
+											"fieldParent": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Product name",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "b73c11f7-3a90-4e75-a897-e0c7151609ba",
+											"fieldName": "InputName",
+											"fieldParent": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										},
+										{
+											"fieldNo": "9c5dbcbf-3957-4126-9e50-24a0ad903058",
+											"fieldName": "LabelQuantity",
+											"fieldParent": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Product Quantity",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "da0ee24f-e10c-4f9c-895f-c9db8bfd529c",
+											"fieldName": "InputQuantity",
+											"fieldParent": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										},
+										{
+											"fieldNo": "fdf24b69-2e69-4d14-bf6c-50ab94802f5c",
+											"fieldName": "LabelPrice",
+											"fieldParent": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Product price",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "ad70f7b8-fa82-43a3-dcce-6f971c4dd494",
+											"fieldName": "InputPrice",
+											"fieldParent": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										},
+										{
+											"fieldNo": "1e77477d-0f69-43fe-dc7e-3efe919104b8",
+											"fieldName": "LabelImage",
+											"fieldParent": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Product image",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "dda7a09e-d21d-49bb-8a56-3970aa9fbe5e",
+											"fieldName": "FileUploader",
+											"fieldParent": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+											"fieldType": "sap.ui.unified.FileUploader",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "fileAllowed",
+													"grouping": "Events",
+													"value": "FileUploader.oFileUpload.files[0];",
+													"script": "FileUploader.oFileUpload.files[0];",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "b805ef36-30f6-4c0c-a639-bb0be29f9a61",
+											"fieldName": "ButtonUpload",
+											"fieldParent": "43e665dd-7de0-40a7-af27-6ecc999e9408",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Emphasized",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Add to inventory",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://upload",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/ButtonUpload/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "53756154-472d-41bc-cb7e-101270e59cec",
+									"fieldName": "oBarCustomHeader",
+									"fieldParent": "18461a24-500e-432a-e96a-61c704623c40",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setCustomHeader",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "64350da2-e15b-4e0d-a639-929f495c9471",
+											"fieldName": "Middle",
+											"fieldParent": "53756154-472d-41bc-cb7e-101270e59cec",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "ab2b9524-7a84-4137-8687-a17af59e10fa",
+													"fieldName": "Title",
+													"fieldParent": "64350da2-e15b-4e0d-a639-929f495c9471",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Add products to inventory",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiLargeMarginBegin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "044e6ee7-0f87-4531-d46a-a87c0fc30645",
+											"fieldName": "Left",
+											"fieldParent": "53756154-472d-41bc-cb7e-101270e59cec",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "362207a9-d7d2-4179-9cf1-a1e88833d427",
+													"fieldName": "Image",
+													"fieldParent": "044e6ee7-0f87-4531-d46a-a87c0fc30645",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "30%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/Luuk%20W%C3%B6sten/arbemirates/arb-logo.svg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "749ee814-f516-4ca4-99a3-d5d80c9c1a21",
+					"fieldName": "Text",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.Text",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "91f5145b-ce34-4a97-b7f9-d0ca3bf084b9",
+					"fieldName": "PUT",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "80bcc3f0-4676-ee11-9937-0022489e2195",
+					"restOperation": "64cececf-db4a-40b0-8651-c0fbb3a3c5bc",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "sap.m.MessageToast.show(\"Product has been added to inventory\");",
+							"script": "sap.m.MessageToast.show(\"Product has been added to inventory\");",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "93694577-4c3a-42f6-b7c6-f5ebf692620c",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.10.30.1530",
+	"application": "arbemiratesaddproducts",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"apis": [
+		{
+			"id": "80bcc3f0-4676-ee11-9937-0022489e2195",
+			"name": "API arbemirates",
+			"ver": "23.10.30.1431"
+		}
+	],
+	"package": "e071a4ca-3077-ee11-9937-0022489e2195"
+}

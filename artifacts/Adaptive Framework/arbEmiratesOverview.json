@@ -1,0 +1,208 @@
+{
+	"id": "0b8b5356-3277-ee11-9937-0022489e2195",
+	"createdAt": "2023-10-30T14:41:06.643Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": true,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"avatarIcon": "sap-icon://fa-solid/warehouse",
+				"avatarBackgroundColor": "Accent5",
+				"title": "My product catologue"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"action1Icon": "sap-icon://add",
+				"_action1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Default"
+				}
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "image",
+				"label": "image",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "price",
+				"label": "price",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "productName",
+				"label": "productName",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "quantity",
+				"label": "quantity",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "image",
+				"text": "image",
+				"fieldPos": 1,
+				"type": "Image"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "productName",
+				"text": "productName",
+				"fieldPos": 2
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "price",
+				"text": "price",
+				"fieldPos": 3
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "quantity",
+				"text": "quantity",
+				"fieldPos": 4,
+				"type": "ObjectNumber",
+				"inputType": "Text",
+				"editable": true
+			}
+		],
+		"defaultVariant": {
+			"id": "4776557f-0317-42f7-9e3e-cca84478e745",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "arbEmiratesOverview",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "098b5356-3277-ee11-9937-0022489e2195",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.10.30.1447",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "e071a4ca-3077-ee11-9937-0022489e2195",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}
